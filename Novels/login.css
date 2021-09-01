@@ -1,0 +1,50 @@
+body {
+	background-image: url("img/1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.login {
+	margin-top: 15px;
+	padding: 30px 10px 30px 10px; /*atas kanan bawah kiri*/
+	background-color: #ffbf00;
+	border-radius: 2%;
+	background: rgba(255, 191, 0, 0.6);
+}
+
+h5 {
+	margin-bottom: 25px;
+	color: #000;
+	font-style: weight;
+}
+
+.validation {
+	text-align: center;
+	margin-top: 18px; 
+}
+
+#validation {
+	text-align: center;
+	margin-top: -20px;
+}
+
+#validation a {
+	text-decoration: none;
+}
+
+#login p {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.login-text {
+	margin-top: -25px;
+}
+
+.log{
+	margin-top: -15px;
+}
+
+.hr {
+	margin-top: 20px;
+}

@@ -1,0 +1,125 @@
+.login-layout {
+	margin-left: 50px;
+}
+
+
+/*genres*/
+.mega-menu {
+	width: 400px; 
+	overflow: hidden; 
+	padding: 10px;
+}
+
+.mega-menu a {
+	text-decoration: none; 
+	color: #000;
+}
+
+.sub-menu-heading { 
+	color: #000;
+	text-align: center;
+}
+
+@media(max-width:500px) {
+	.mega-menu {
+		width: 300px;
+	}
+}
+
+/*hover link dropdown menu*/
+a.genres{
+	display: block;
+	padding-left: 9px;
+	padding-right: 110px;
+}
+
+/*Caraousel Index*/
+img.d-block {
+	height: 300px;
+}
+
+.caraousel-item {
+	transition-timing-function: 0.3s;
+	transition-duration: 0.3s; 
+}
+
+p.lead {
+	padding-top: 0px;
+	text-align: center;
+}
+
+a.lead {
+	text-align:center;
+	padding-top: 0px;
+	color: #000;
+	text-decoration: none;
+}
+
+/*btn search navbar*/
+/*Content index*/
+.card-img-top {
+	height: 20rem;
+	border-radius: 3%;
+	border: none;
+}
+
+.card-text {
+	margin-top: 25px;
+}
+
+.jumbotron {
+	margin-top: 40px;
+	padding-top: 0px;
+	padding-bottom: 40px;
+	background-color: #FFDD00;
+}
+
+div.card-content {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+
+
+/* Icon */
+i, a {
+	color: #000;
+}
+
+.fa-heart:visited, .fa-heart:hover {
+	background-color: #ff1a1a;
+}
+
+/* Footer */
+.card-footer {
+	margin-top: 100px;
+}
+
+.img-content {
+	width: 18rem;
+	height: 25rem;
+	border-radius: 3%;
+}
+
+.detail {
+	text-align: justify;
+}
+ 
+
+#card-text-content, #link {
+	width:100px;
+	height:25px;
+	border: 1px;
+	background-color: #cccccc;
+	border-radius: 25px;
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+	float: left;
+	margin-right: 5px;
+}
+
+#card-text-content, #link:hover {
+	background-color: #e6e6e6;
+	text-decoration: none;
+	color: #000;
+}
+
